@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Html5</title>
+<meta charset="UTF-8">
+<style type="text/css">
+	span {margin-right: 25px;}
+	#cursor {margin-top: 10px;width: 155px;}
+	#resultLayer {margin-top: -2px;}
+	#resultLabel {margin-left: 2px;}
+</style>
+<script type="text/javascript">
+	function showIt(selectionData) {
+		document.getElementById("rangeValue").innerHTML = selectionData;
+	}
+</script>
+</head>
+<body>
+<form action="">
+Requested quantity:<br>
+<input type="range" name="cursor" min="1" max="5" value="3" step="1" onchange="showIt(this.value)"><br>
+<div id="resultLayer">
+	<span id="resultLabel">1</span>
+	<span>2</span>
+	<span>3</span>
+	<span>4</span>
+	<span>5</span>
+</div>
+<p>You're select... <span id="rangeValue">3</span></p>
+</form>
+</body>
+</html>
