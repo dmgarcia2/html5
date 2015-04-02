@@ -1,4 +1,4 @@
-This code is a example of html5 tags, css3 selectors and javascript html5 API.
+This code is a example of html5 tags.
 
 It is part of PhoneGap training curse.
 
