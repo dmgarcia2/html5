@@ -1,0 +1,54 @@
+body {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+	margin-left: -30px;
+}
+
+header {
+	height: 120px;
+	box-sizing: border-box;
+}
+
+header img {
+	float: left;
+}
+
+header span {
+	float: left;
+	margin: 40px;
+	margin-left: 40px;
+	font-size: 36px;
+	font-weight: bold;
+}
+
+nav {
+	box-sizing: border-box;
+	clear: both;
+	float: left;
+	width: 20%;
+}
+
+section {
+	box-sizing: border-box;
+	float: left;
+	width: 60%;
+	padding-right: 20px;
+}
+
+aside {
+	box-sizing: border-box;
+	float: left;
+	width: 20%;
+	background-color: lightgray;
+}
+
+aside h3 {
+	text-align: center;
+}
